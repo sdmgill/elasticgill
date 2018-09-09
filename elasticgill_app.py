@@ -1,6 +1,6 @@
 from flask import Flask, render_template, flash, session,redirect,url_for
 
-app=Flask(__name__)
+application=Flask(__name__)
 
 @app.route('/')
 def home():
@@ -22,5 +22,5 @@ def awsemr():
     return render_template('awsemr.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
-    app.run(host='0.0.0.0')
+    application.run(debug=True)
+    application.run(host='0.0.0.0')
