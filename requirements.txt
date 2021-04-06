@@ -35,7 +35,7 @@ requests==2.20.0
 requests-oauthlib==0.8.0
 semantic-version==2.5.0
 six==1.11.0
-SQLAlchemy==1.2.6
+SQLAlchemy>=1.3.06
 SQLAlchemy-Utils==0.33.2
 tabulate==0.7.5
 termcolor==1.1.0
